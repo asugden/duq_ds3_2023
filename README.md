@@ -44,6 +44,17 @@ To ensure that you can use Anaconda from within Git Bash, checkout the first ans
 
 It may seem weird that a course syllabus links to Stack Overflow, but you will find that the professional experience of Data Science often involves using Google for solutions. Installing core Unix components is one of the most frustrating tasks in computing, regardless of operating system, but doing so provides excellent experience.
 
+## SSH Issues
+
+For Github, if you want to use ssh, there are a variety of ways to deal with this.
+
+1. PyCharm: https://www.jetbrains.com/help/pycharm/create-ssh-configurations.html
+1. Github more generally: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+## Slack
+
+You may have noticed that you've been sent a slack invite. This is never required, but it's an easy way to contact me if you have questions. It's also a great place to ask other folks in the class questions that you might have. There's nothing worse than getting stuck programming, and having others around is key.
+
 ## Notes
 
 1. Set up your own Github account
