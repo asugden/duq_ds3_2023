@@ -14,7 +14,7 @@ def make_db():
     CREATE TABLE IF NOT EXISTS authors (
         first_name VARCHAR(250),
         last_name VARCHAR(250) NOT NULL,
-        FOREIGN KEY(affiliation_id) REFERENCES affiliations(id)
+        affiliation_id INTEGER REFERENCES affiliations(id)
     );'''
 
     sqliteConnection = sqlite3.connect('test_sqlite.db')
